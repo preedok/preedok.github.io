@@ -11,12 +11,13 @@ body {
   margin: auto;
   text-align: center;
   position: sticky;
+
   bottom: 1rem;
 }
 .switch button {
   padding: 1rem 3rem;
   font-size: 1rem;
-  background: #041E44;
+  background: #041e44;
   color: white;
   border-radius: 100px;
   border: 2px solid #ff7686;
@@ -41,23 +42,21 @@ body {
   }
   .cta {
     position: absolute;
-    left: 2.50rem;
+    left: 2.5rem;
     top: 5.7rem;
   }
-  .cons{
-    overflow-x: hidden
+  .cons {
+    overflow-x: hidden;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .group-socmed {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .cons{
-    overflow-x: hidden
+  .cons {
+    overflow-x: hidden;
   }
 }
 #username {

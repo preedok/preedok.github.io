@@ -18,7 +18,7 @@ const Index = () => {
 
   const [count, setCount] = useState(0);
   useEffect(() => {
-    if (count === 99) return;
+    if (count === 999) return;
     const interval = setInterval(() => {
       setCount(count + 1);
     }, 50);
@@ -46,7 +46,11 @@ const Index = () => {
 
   return (
     <>
-      <div className={`App ${style.cons} ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+      <div
+        className={`App ${style.cons} ${
+          isDarkMode ? "dark-mode" : "light-mode"
+        }`}
+      >
         {/* Hero */}
         <Navbar />
         <section className={style.hero}>
@@ -67,7 +71,7 @@ const Index = () => {
                   to help you!
                 </p>
                 <a
-                  href="#"
+                  href="https://wa.wizard.id/184145"
                   className={`btn ${style.btnPrimary} btn-primary mt-3`}
                 >
                   Contact Me
@@ -92,7 +96,11 @@ const Index = () => {
         {/* Experience */}
         <div id="experience" className={style.experience}>
           <div className="container">
-            <div data-aos="zoom-in-right" data-aos-duration="1000" className="row">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="row"
+            >
               <div className="col-md-3">
                 <div className={style.cardDark}>
                   <img
@@ -102,10 +110,10 @@ const Index = () => {
                   />
                   <div className={style.detail}>
                     <h3>ReactJS Developer</h3>
-                    <p>
+                    {/* <p>
                       <b>Pijar Camp</b>
                     </p>
-                    <p>Sept 2022 - Present</p>
+                    <p>Des 2022 - Present</p> */}
                   </div>
                 </div>
               </div>
@@ -118,10 +126,10 @@ const Index = () => {
                   />
                   <div className={style.detail}>
                     <h3>Backend Developer</h3>
-                    <p>
+                    {/* <p>
                       <b>Pijar Camp</b>
                     </p>
-                    <p>Sept 2022 - Present</p>
+                    <p>Des 2022 - Present</p> */}
                   </div>
                 </div>
               </div>
@@ -134,10 +142,10 @@ const Index = () => {
                   />
                   <div className={style.detail}>
                     <h3>React Native developer</h3>
-                    <p>
+                    {/* <p>
                       <b>Pijar Camp</b>
                     </p>
-                    <p>Sept 2022 - Present</p>
+                    <p>Des 2022 - Present</p> */}
                   </div>
                 </div>
               </div>
@@ -146,10 +154,10 @@ const Index = () => {
                   <img src={figma} alt="Icon Experience" />
                   <div className={style.detail}>
                     <h3>UI Designer</h3>
-                    <p>
+                    {/* <p>
                       <b>Pijar Camp</b>
                     </p>
-                    <p>Sept 2022 - Present</p>
+                    <p>Des 2022 - Present</p> */}
                   </div>
                 </div>
               </div>
@@ -376,7 +384,7 @@ const Index = () => {
                       borderRadius: "50%",
                       padding: "10px",
                     }}
-                    src={require("../../assets/node.png")}
+                    src={require("../../assets/next.png")}
                     alt="Project"
                   />
                   <p className={style.highlight}>{count}+</p>
@@ -433,7 +441,10 @@ const Index = () => {
                     height={82}
                   />
                   <p>Email</p>
-                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
+                  <a
+                    href="http://rebrand.ly/iqbalapredo"
+                    className={`btn btn-primary ${style.btnPrimary}`}
+                  >
                     Follow Me
                   </a>
                 </div>
@@ -457,7 +468,10 @@ const Index = () => {
                     height={82}
                   />
                   <p>Github</p>
-                  <a href="https://github.com/preedok?tab=repositories" className={`btn btn-primary ${style.btnPrimary}`}>
+                  <a
+                    href="https://github.com/preedok?tab=repositories"
+                    className={`btn btn-primary ${style.btnPrimary}`}
+                  >
                     Follow Me
                   </a>
                 </div>
@@ -468,7 +482,7 @@ const Index = () => {
 
         {/* swith mode */}
         <div className={style.switch}>
-          <div className=" form-switch">
+          <div className="form-switch fixed-bottom m-3">
             <input
               className="form-check-input toggle-button"
               style={{ width: "52px", height: "26px" }}
