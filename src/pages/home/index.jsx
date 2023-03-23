@@ -46,11 +46,11 @@ const Index = () => {
 
   return (
     <>
-      <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+      <div className={`App ${style.cons} ${isDarkMode ? "dark-mode" : "light-mode"}`}>
         {/* Hero */}
         <Navbar />
         <section className={style.hero}>
-          <div style={{ marginTop: "90px" }} className="container">
+          <div className="container mt-3">
             <div className="row">
               <div
                 data-aos="zoom-in-right"
@@ -90,17 +90,17 @@ const Index = () => {
         </section>
 
         {/* Experience */}
-        <div id="experience" class={style.experience}>
-          <div class="container">
-            <div data-aos="zoom-in-right" data-aos-duration="1000" class="row">
-              <div class="col-md-3">
-                <div class={style.cardDark}>
+        <div id="experience" className={style.experience}>
+          <div className="container">
+            <div data-aos="zoom-in-right" data-aos-duration="1000" className="row">
+              <div className="col-md-3">
+                <div className={style.cardDark}>
                   <img
                     style={{ height: "45px" }}
                     src={require("../../assets/reactjs.png")}
                     alt="Icon Experience"
                   />
-                  <div class={style.detail}>
+                  <div className={style.detail}>
                     <h3>ReactJS Developer</h3>
                     <p>
                       <b>Pijar Camp</b>
@@ -109,14 +109,14 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class={style.cardDark}>
+              <div className="col-md-3">
+                <div className={style.cardDark}>
                   <img
                     style={{ width: "70px", height: "50px" }}
                     src={require("../../assets/node.png")}
                     alt="Icon Experience"
                   />
-                  <div class={style.detail}>
+                  <div className={style.detail}>
                     <h3>Backend Developer</h3>
                     <p>
                       <b>Pijar Camp</b>
@@ -125,14 +125,14 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class={style.cardDark}>
+              <div className="col-md-3">
+                <div className={style.cardDark}>
                   <img
                     style={{ width: "70px", height: "50px" }}
                     src={require("../../assets/native.png")}
                     alt="Icon Experience"
                   />
-                  <div class={style.detail}>
+                  <div className={style.detail}>
                     <h3>React Native developer</h3>
                     <p>
                       <b>Pijar Camp</b>
@@ -141,10 +141,10 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class={style.cardDark}>
+              <div className="col-md-3">
+                <div className={style.cardDark}>
                   <img src={figma} alt="Icon Experience" />
-                  <div class={style.detail}>
+                  <div className={style.detail}>
                     <h3>UI Designer</h3>
                     <p>
                       <b>Pijar Camp</b>
@@ -162,30 +162,30 @@ const Index = () => {
           data-aos="zoom-in-left"
           data-aos-duration="1000"
           id="project"
-          class={style.code}
+          className={style.code}
         >
-          <div class={`${style.title} d-flex`}>
-            <h2 class="mx-3">Code</h2>
-            <p class="my-auto">
+          <div className={`${style.title} d-flex`}>
+            <h2 className="mx-3">Code</h2>
+            <p className="my-auto">
               These are my projects created using ExpressJS, NextJS, ReactJS,
               Bootstrap, PostgreSql
             </p>
           </div>
-          <div class={style.content}>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class={style.card}>
-                    <div class={style.cardBanner}>
+          <div className={style.content}>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner}>
                       <img
                         src={require("../../assets/balanjo.png")}
                         alt="Design 1"
-                        class="img-fluid"
+                        className="img-fluid"
                         style={{ borderRadius: "15px" }}
                       />
                     </div>
-                    <div class={style.detailBanner}>
-                      <div class={style.cardUser}>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
                         <Link to="https://github.com/preedok/FE-BALANJO">
                           <img
                             width="50px"
@@ -195,14 +195,14 @@ const Index = () => {
                           />
                         </Link>
                       </div>
-                      <div class={style.detail}>
+                      <div className={style.detail}>
                         <h3>Balanjo App</h3>
                       </div>
 
-                      <div class={style.cta}>
+                      <div className={style.cta}>
                         <a
                           href="https://balanjoyok.vercel.app/"
-                          class={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
                         </a>
@@ -210,18 +210,18 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class={style.card}>
-                    <div class={style.cardBanner}>
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner}>
                       <img
                         src={require("../../assets/hire.jpg")}
                         alt="Design 1"
-                        class="img-fluid"
+                        className="img-fluid"
                         style={{ borderRadius: "15px" }}
                       />
                     </div>
-                    <div class={style.detailBanner}>
-                      <div class={style.cardUser}>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
                         <Link to="https://github.com/preedok/FE-JOB">
                           <img
                             width="50px"
@@ -231,13 +231,13 @@ const Index = () => {
                           />
                         </Link>
                       </div>
-                      <div class={style.detail}>
+                      <div className={style.detail}>
                         <h3>Hire Job App</h3>
                       </div>
-                      <div class={style.cta}>
+                      <div className={style.cta}>
                         <a
                           href="#"
-                          class={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
                         </a>
@@ -245,18 +245,18 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class={style.card}>
-                    <div class={style.cardBanner}>
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner}>
                       <img
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/wa.webp")}
                         alt="Design 1"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
-                    <div class={style.detailBanner}>
-                      <div class={style.cardUser}>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
                         <Link to="https://github.com/preedok/FE-WhatsApp">
                           <img
                             width="50px"
@@ -266,13 +266,13 @@ const Index = () => {
                           />
                         </Link>
                       </div>
-                      <div class={style.detail}>
+                      <div className={style.detail}>
                         <h3>WhatsApp App</h3>
                       </div>
-                      <div class={style.cta}>
+                      <div className={style.cta}>
                         <a
                           href="https://fe-whats-app.vercel.app/login"
-                          class={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
                         </a>
@@ -280,18 +280,18 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class={style.card}>
-                    <div class={style.cardBanner}>
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner}>
                       <img
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/pe.webp")}
                         alt="Design 1"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </div>
-                    <div class={style.detailBanner}>
-                      <div class={style.cardUser}>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
                         <Link to="https://github.com/preedok/FE-ANKASA">
                           <img
                             width="50px"
@@ -301,13 +301,13 @@ const Index = () => {
                           />
                         </Link>
                       </div>
-                      <div class={style.detail}>
+                      <div className={style.detail}>
                         <h3>Ankasa App</h3>
                       </div>
-                      <div class={style.cta}>
+                      <div className={style.cta}>
                         <a
                           href="https://insancitaticket.vercel.app/"
-                          class={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
                         </a>
@@ -324,20 +324,20 @@ const Index = () => {
         <div
           data-aos="zoom-in-right"
           data-aos-duration="1000"
-          class={`${style.project} mt-5`}
+          className={`${style.project} mt-5`}
         >
-          <div class={`${style.title} d-flex`}>
-            <h2 class="mx-3">Project</h2>
-            <p class="my-auto">
+          <div className={`${style.title} d-flex`}>
+            <h2 className="mx-3">Project</h2>
+            <p className="my-auto">
               Practice makes it better, isn't it? I love to share anything
               related to techs such as programming, design, web styling, and
               data structure.
             </p>
           </div>
-          <div class={style.content}>
-            <div class="container">
-              <div class={`row ${style.projectGrup}`}>
-                <div class={`col-md-3 ${style.projectItem}`}>
+          <div className={style.content}>
+            <div className="container">
+              <div className={`row ${style.projectGrup}`}>
+                <div className={`col-md-3 ${style.projectItem}`}>
                   <img
                     style={{
                       width: "100px",
@@ -349,10 +349,10 @@ const Index = () => {
                     src={require("../../assets/reactjs.png")}
                     alt="Project"
                   />
-                  <p class={style.highlight}>{count}+</p>
+                  <p className={style.highlight}>{count}+</p>
                   <p>ReactJS</p>
                 </div>
-                <div class={` col-md-3 ${style.projectItem}`}>
+                <div className={` col-md-3 ${style.projectItem}`}>
                   <img
                     style={{
                       width: "100px",
@@ -364,10 +364,10 @@ const Index = () => {
                     src={require("../../assets/Expressjs.png")}
                     alt="Project"
                   />
-                  <p class={style.highlight}>{count}+</p>
+                  <p className={style.highlight}>{count}+</p>
                   <p>ExpessJS</p>
                 </div>
-                <div class={` col-md-3 ${style.projectItem}`}>
+                <div className={` col-md-3 ${style.projectItem}`}>
                   <img
                     style={{
                       width: "100px",
@@ -379,10 +379,10 @@ const Index = () => {
                     src={require("../../assets/node.png")}
                     alt="Project"
                   />
-                  <p class={style.highlight}>{count}+</p>
+                  <p className={style.highlight}>{count}+</p>
                   <p>NextJS</p>
                 </div>
-                <div class={` col-md-3 ${style.projectItem}`}>
+                <div className={` col-md-3 ${style.projectItem}`}>
                   <img
                     style={{
                       width: "100px",
@@ -394,7 +394,7 @@ const Index = () => {
                     src={require("../../assets/canva.png")}
                     alt="Project"
                   />
-                  <p class={style.highlight}>{count}+</p>
+                  <p className={style.highlight}>{count}+</p>
                   <p>Canva</p>
                 </div>
               </div>
@@ -407,25 +407,25 @@ const Index = () => {
           data-aos="zoom-in-left"
           data-aos-duration="1000"
           id="connect"
-          class={style.connect}
+          className={style.connect}
         >
-          <div class={style.title}>
+          <div className={style.title}>
             <h2>Let’s Connect and Say Hi</h2>
           </div>
-          <div class={style.content}>
-            <div class="container">
-              <div class={style.groupSocmed}>
-                <div class={style.cardSocmed}>
+          <div className={style.content}>
+            <div className="container">
+              <div className={style.groupSocmed}>
+                <div className={style.cardSocmed}>
                   <img
                     src={require("../../assets/LinkedIn.png")}
                     alt="Social Media"
                   />
                   <p>LinkedIn</p>
-                  <a href="" class={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
                     Follow Me
                   </a>
                 </div>
-                <div class={style.cardSocmed}>
+                <div className={style.cardSocmed}>
                   <img
                     src={require("../../assets/gmails.png")}
                     alt="Social Media"
@@ -433,11 +433,11 @@ const Index = () => {
                     height={82}
                   />
                   <p>Email</p>
-                  <a href="" class={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
                     Follow Me
                   </a>
                 </div>
-                <div class={style.cardSocmed}>
+                <div className={style.cardSocmed}>
                   <img
                     src={require("../../assets/instagram.webp")}
                     width={82}
@@ -445,11 +445,11 @@ const Index = () => {
                     alt="Social Media"
                   />
                   <p>Instagram</p>
-                  <a href="" class={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
                     Follow Me
                   </a>
                 </div>
-                <div class={style.cardSocmed}>
+                <div className={style.cardSocmed}>
                   <img
                     src={require("../../assets/github.webp")}
                     alt="Social Media"
@@ -457,7 +457,7 @@ const Index = () => {
                     height={82}
                   />
                   <p>Github</p>
-                  <a href="" class={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="https://github.com/preedok?tab=repositories" className={`btn btn-primary ${style.btnPrimary}`}>
                     Follow Me
                   </a>
                 </div>
@@ -467,7 +467,7 @@ const Index = () => {
         </div>
 
         {/* swith mode */}
-        <div class={style.switch}>
+        <div className={style.switch}>
           <div className=" form-switch">
             <input
               className="form-check-input toggle-button"

@@ -44,6 +44,9 @@ body {
     left: 2.50rem;
     top: 5.7rem;
   }
+  .cons{
+    overflow-x: hidden
+  }
 }
 
 
@@ -52,6 +55,9 @@ body {
   .group-socmed {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .cons{
+    overflow-x: hidden
   }
 }
 #username {
