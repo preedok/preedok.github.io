@@ -71,7 +71,7 @@ const Index = () => {
                   to help you!
                 </p>
                 <a
-                  href="https://wa.wizard.id/184145"
+                  href="https://wa.wizard.id/25f369"
                   className={`btn ${style.btnPrimary} btn-primary mt-3`}
                 >
                   Contact Me
