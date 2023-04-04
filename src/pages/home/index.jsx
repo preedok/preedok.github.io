@@ -275,11 +275,11 @@ const Index = () => {
                         </Link>
                       </div>
                       <div className={style.detail}>
-                        <h3>WhatsApp App</h3>
+                        <h3>Sleep Call App</h3>
                       </div>
                       <div className={style.cta}>
                         <a
-                          href="https://fe-whats-app.vercel.app/login"
+                          href="https://fe-sleepcall-app.vercel.app/login"
                           className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
