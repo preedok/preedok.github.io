@@ -67,7 +67,7 @@ const Index = () => {
                 </h2>
                 <p>
                   I design delightful product & code web. I can help everyone
-                  build their business. it such a happiness for me. so, let me
+                  build their business. It such a happiness for me. So, let me
                   to help you!
                 </p>
                 <a
