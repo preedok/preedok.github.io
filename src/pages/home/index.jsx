@@ -314,7 +314,7 @@ const Index = () => {
                       </div>
                       <div className={style.cta}>
                         <a
-                          href="https://insancitaticket.vercel.app/"
+                          href="https://ankasa2023.vercel.app/"
                           className={`btn btn-primary ${style.btnPrimary}`}
                         >
                           See Detail
