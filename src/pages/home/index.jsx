@@ -373,7 +373,7 @@ const Index = () => {
                     alt="Project"
                   />
                   <p className={style.highlight}>{count}+</p>
-                  <p>ExpessJS</p>
+                  <p>ExpressJS</p>
                 </div>
                 <div className={` col-md-3 ${style.projectItem}`}>
                   <img
