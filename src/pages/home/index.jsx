@@ -57,15 +57,17 @@ const Index = () => {
           <div className="container mt-3">
             <div className="row">
               <div
-                data-aos="zoom-in-right"
-                data-aos-duration="1000"
+               
                 className="col-md-6 my-auto"
               >
-                <h3 id={style.username}>Muhamad Iqbal Aprido</h3>
-                <h2 className={index % 2 === 0 ? "slide-in" : "fade-out"}>
+                <h3 id={style.username}   data-aos="zoom-in-left"
+                data-aos-duration="1000">Muhamad Iqbal Aprido</h3>
+                <h2 className={index % 2 === 0 ? "slide-in" : "fade-out"}   data-aos="zoom-in-right"
+                data-aos-duration="1000">
                   {words[index]}
                 </h2>
-                <p>
+                <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">
                   I design delightful product & code web. I can help everyone
                   build their business. It such a happiness for me. So, let me
                   to help you!
@@ -73,20 +75,21 @@ const Index = () => {
                 <a
                   href="https://wa.wizard.id/25f369"
                   className={`btn ${style.btnPrimary} btn-primary mt-3`}
-                >
+                  data-aos="zoom-in-left"
+                data-aos-duration="1000">
                   Contact Me
                 </a>
               </div>
               <div
-                data-aos="zoom-in-left"
-                data-aos-duration="1000"
+              
                 className="col-md-6"
               >
                 <img
                   style={{ marginBottom: "55px", borderRadius: "25px" }}
                   src={require("../../assets/animation_500_lfjt95fy.gif")}
                   alt="hero"
-                  className={style.imgFluid}
+                  className={style.imgFluid}    data-aos="zoom-in-right"
+                data-aos-duration="1000"
                 />
               </div>
             </div>
@@ -97,8 +100,7 @@ const Index = () => {
         <div id="experience" className={style.experience}>
           <div className="container">
             <div
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
+            
               className="row"
             >
               <div className="col-md-3">
@@ -106,14 +108,16 @@ const Index = () => {
                   <img
                     style={{ height: "45px" }}
                     src={require("../../assets/reactjs.png")}
-                    alt="Icon Experience"
+                    alt="Icon Experience"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   />
                   <div className={style.detail}>
-                    <h3>ReactJS Developer</h3>
-                    {/* <p>
-                      <b>Pijar Camp</b>
+                    <h3   data-aos="zoom-in-right"
+                data-aos-duration="1000">ReactJS Developer</h3>
+                    <p>
+                      <b>PT. Halotec Indonesia</b>
                     </p>
-                    <p>Des 2022 - Present</p> */}
+                    <p>April 2023 - Now</p>
                   </div>
                 </div>
               </div>
@@ -122,14 +126,18 @@ const Index = () => {
                   <img
                     style={{ width: "70px", height: "50px" }}
                     src={require("../../assets/node.png")}
-                    alt="Icon Experience"
+                    alt="Icon Experience"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   />
                   <div className={style.detail}>
-                    <h3>Backend Developer</h3>
-                    {/* <p>
-                      <b>Pijar Camp</b>
+                    <h3   data-aos="zoom-in-right"
+                data-aos-duration="1000">Backend Developer</h3>
+                     <p>
+                      <b   data-aos="zoom-in-right"
+                data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
-                    <p>Des 2022 - Present</p> */}
+                    <p   data-aos="zoom-in-left"
+                data-aos-duration="1000">April 2023 - Now</p>
                   </div>
                 </div>
               </div>
@@ -138,26 +146,35 @@ const Index = () => {
                   <img
                     style={{ width: "70px", height: "50px" }}
                     src={require("../../assets/native.png")}
-                    alt="Icon Experience"
+                    alt="Icon Experience"   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
                   <div className={style.detail}>
-                    <h3>React Native developer</h3>
-                    {/* <p>
-                      <b>Pijar Camp</b>
+                    <h3   data-aos="zoom-in-left"
+                data-aos-duration="1000">React Native developer</h3>
+                    <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">
+                      <b>PT. Halotec Indonesia</b>
                     </p>
-                    <p>Des 2022 - Present</p> */}
+                    <p   data-aos="zoom-in-left"
+                data-aos-duration="1000">April 2023 - Now</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className={style.cardDark}>
-                  <img src={figma} alt="Icon Experience" />
-                  <div className={style.detail}>
+                  <img src={figma} alt="Icon Experience"   data-aos="zoom-in-Right"
+                data-aos-duration="1000" />
+                  <div className={style.detail}   data-aos="zoom-in-left"
+                data-aos-duration="1000">
                     <h3>UI Designer</h3>
-                    {/* <p>
-                      <b>Pijar Camp</b>
+                    <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">
+                      <b   data-aos="zoom-in-left"
+                data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
-                    <p>Des 2022 - Present</p> */}
+                    <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">April 2023 - Now</p>
                   </div>
                 </div>
               </div>
@@ -173,8 +190,10 @@ const Index = () => {
           className={style.code}
         >
           <div className={`${style.title} d-flex`}>
-            <h2 className="mx-3">Code</h2>
-            <p className="my-auto">
+            <h2 className="mx-3"   data-aos="zoom-in-left"
+                data-aos-duration="1000">Code</h2>
+            <p className="my-auto"   data-aos="zoom-in-right"
+                data-aos-duration="1000">
               These are my projects created using ExpressJS, NextJS, ReactJS,
               Bootstrap, PostgreSql
             </p>
@@ -189,7 +208,8 @@ const Index = () => {
                         src={require("../../assets/balanjo.png")}
                         alt="Design 1"
                         className="img-fluid"
-                        style={{ borderRadius: "15px" }}
+                        style={{ borderRadius: "15px" }}   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                       />
                     </div>
                     <div className={style.detailBanner}>
@@ -199,18 +219,21 @@ const Index = () => {
                             width="50px"
                             height="50px"
                             src={require("../../assets/github.png")}
-                            alt=""
+                            alt=""   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                           />
                         </Link>
                       </div>
-                      <div className={style.detail}>
+                      <div className={style.detail}   data-aos="zoom-in-left"
+                data-aos-duration="1000">
                         <h3>Balanjo App</h3>
                       </div>
 
                       <div className={style.cta}>
                         <a
                           href="https://balanjoyok.vercel.app/"
-                          className={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`   data-aos="zoom-in-right"
+                data-aos-duration="1000"}
                         >
                           See Detail
                         </a>
@@ -225,7 +248,8 @@ const Index = () => {
                         src={require("../../assets/hire.jpg")}
                         alt="Design 1"
                         className="img-fluid"
-                        style={{ borderRadius: "15px" }}
+                        style={{ borderRadius: "15px" }}   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                       />
                     </div>
                     <div className={style.detailBanner}>
@@ -235,17 +259,20 @@ const Index = () => {
                             width="50px"
                             height="50px"
                             src={require("../../assets/github.png")}
-                            alt=""
+                            alt=""   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                           />
                         </Link>
                       </div>
                       <div className={style.detail}>
-                        <h3>Hire Job App</h3>
+                        <h3   data-aos="zoom-in-left"
+                data-aos-duration="1000">Hire Job App</h3>
                       </div>
                       <div className={style.cta}>
                         <a
                           href="https://portalkerja2023.vercel.app/"
-                          className={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                         >
                           See Detail
                         </a>
@@ -260,7 +287,8 @@ const Index = () => {
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/wa.webp")}
                         alt="Design 1"
-                        className="img-fluid"
+                        className="img-fluid"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                       />
                     </div>
                     <div className={style.detailBanner}>
@@ -270,17 +298,20 @@ const Index = () => {
                             width="50px"
                             height="50px"
                             src={require("../../assets/github.png")}
-                            alt=""
+                            alt=""   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                           />
                         </Link>
                       </div>
                       <div className={style.detail}>
-                        <h3>Sleep Call App</h3>
+                        <h3   data-aos="zoom-in-left"
+                data-aos-duration="1000">Sleep Call App</h3>
                       </div>
                       <div className={style.cta}>
                         <a
                           href="https://fe-sleepcall-app.vercel.app/login"
-                          className={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                         >
                           See Detail
                         </a>
@@ -295,7 +326,8 @@ const Index = () => {
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/pe.webp")}
                         alt="Design 1"
-                        className="img-fluid"
+                        className="img-fluid"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                       />
                     </div>
                     <div className={style.detailBanner}>
@@ -305,17 +337,20 @@ const Index = () => {
                             width="50px"
                             height="50px"
                             src={require("../../assets/github.png")}
-                            alt=""
+                            alt=""   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                           />
                         </Link>
                       </div>
                       <div className={style.detail}>
-                        <h3>Ankasa App</h3>
+                        <h3   data-aos="zoom-in-left"
+                data-aos-duration="1000">Ankasa App</h3>
                       </div>
                       <div className={style.cta}>
                         <a
                           href="https://ankasa2023.vercel.app/"
-                          className={`btn btn-primary ${style.btnPrimary}`}
+                          className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                         >
                           See Detail
                         </a>
@@ -335,8 +370,10 @@ const Index = () => {
           className={`${style.project} mt-5`}
         >
           <div className={`${style.title} d-flex`}>
-            <h2 className="mx-3">Project</h2>
-            <p className="my-auto">
+            <h2 className="mx-3"   data-aos="zoom-in-right"
+                data-aos-duration="1000">Project</h2>
+            <p className="my-auto"   data-aos="zoom-in-left"
+                data-aos-duration="1000">
               Practice makes it better, isn't it? I love to share anything
               related to techs such as programming, design, web styling, and
               data structure.
@@ -352,13 +389,16 @@ const Index = () => {
                       height: "100px",
                       backgroundColor: "rgba(165, 202, 255, 0.2)",
                       borderRadius: "50%",
-                      padding: "10px",
+                      padding: "10px", 
                     }}
                     src={require("../../assets/reactjs.png")}
-                    alt="Project"
+                    alt="Project"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   />
-                  <p className={style.highlight}>{count}+</p>
-                  <p>ReactJS</p>
+                  <p className={style.highlight}   data-aos="zoom-in-right"
+                data-aos-duration="1000">{count}+</p>
+                  <p   data-aos="zoom-in-left"
+                data-aos-duration="1000">ReactJS</p>
                 </div>
                 <div className={` col-md-3 ${style.projectItem}`}>
                   <img
@@ -367,13 +407,17 @@ const Index = () => {
                       height: "100px",
                       backgroundColor: "rgba(165, 202, 255, 0.2)",
                       borderRadius: "50%",
-                      padding: "10px",
+                      padding: "10px", 
                     }}
                     src={require("../../assets/Expressjs.png")}
-                    alt="Project"
+                    alt="Project"   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
-                  <p className={style.highlight}>{count}+</p>
-                  <p>ExpressJS</p>
+                  <p className={style.highlight}   data-aos="zoom-in-left"
+                data-aos-duration="1000">{count}+</p>
+                  <p   data-aos="zoom-in-right"
+                data-aos-duration="1000"   data-aos="zoom-in-left"
+                data-aos-duration="1000">ExpressJS</p>
                 </div>
                 <div className={` col-md-3 ${style.projectItem}`}>
                   <img
@@ -385,10 +429,13 @@ const Index = () => {
                       padding: "10px",
                     }}
                     src={require("../../assets/next.png")}
-                    alt="Project"
+                    alt="Project"   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
-                  <p className={style.highlight}>{count}+</p>
-                  <p>NextJS</p>
+                  <p className={style.highlight}   data-aos="zoom-in-left"
+                data-aos-duration="1000">{count}+</p>
+                  <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">NextJS</p>
                 </div>
                 <div className={` col-md-3 ${style.projectItem}`}>
                   <img
@@ -400,10 +447,13 @@ const Index = () => {
                       padding: "10px",
                     }}
                     src={require("../../assets/canva.png")}
-                    alt="Project"
+                    alt="Project"   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
-                  <p className={style.highlight}>{count}+</p>
-                  <p>Canva</p>
+                  <p className={style.highlight}   data-aos="zoom-in-left"
+                data-aos-duration="1000">{count}+</p>
+                  <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">Canva</p>
                 </div>
               </div>
             </div>
@@ -418,7 +468,8 @@ const Index = () => {
           className={style.connect}
         >
           <div className={style.title}>
-            <h2>Let’s Connect and Say Hi</h2>
+            <h2   data-aos="zoom-in-left"
+                data-aos-duration="1000">Let’s Connect and Say Hi</h2>
           </div>
           <div className={style.content}>
             <div className="container">
@@ -426,10 +477,12 @@ const Index = () => {
                 <div className={style.cardSocmed}>
                   <img
                     src={require("../../assets/LinkedIn.png")}
-                    alt="Social Media"
+                    alt="Social Media"   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
                   <p>LinkedIn</p>
-                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-left"
+                data-aos-duration="1000">
                     Follow Me
                   </a>
                 </div>
@@ -438,12 +491,15 @@ const Index = () => {
                     src={require("../../assets/gmails.png")}
                     alt="Social Media"
                     width={82}
-                    height={82}
+                    height={82}   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   />
-                  <p>Email</p>
+                  <p   data-aos="zoom-in-left"
+                data-aos-duration="1000">Email</p>
                   <a
                     href="http://rebrand.ly/iqbalapredo"
-                    className={`btn btn-primary ${style.btnPrimary}`}
+                    className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-right"
+                data-aos-duration="1000"
                   >
                     Follow Me
                   </a>
@@ -453,10 +509,12 @@ const Index = () => {
                     src={require("../../assets/instagram.webp")}
                     width={82}
                     height={82}
-                    alt="Social Media"
+                    alt="Social Media"   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   />
                   <p>Instagram</p>
-                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}>
+                  <a href="" className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-right"
+                data-aos-duration="1000">
                     Follow Me
                   </a>
                 </div>
@@ -465,12 +523,15 @@ const Index = () => {
                     src={require("../../assets/github.webp")}
                     alt="Social Media"
                     width={82}
-                    height={82}
+                    height={82}   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   />
-                  <p>Github</p>
+                  <p   data-aos="zoom-in-right"
+                data-aos-duration="1000">Github</p>
                   <a
                     href="https://github.com/preedok?tab=repositories"
-                    className={`btn btn-primary ${style.btnPrimary}`}
+                    className={`btn btn-primary ${style.btnPrimary}`}   data-aos="zoom-in-left"
+                data-aos-duration="1000"
                   >
                     Follow Me
                   </a>
@@ -482,7 +543,8 @@ const Index = () => {
 
         {/* swith mode */}
         <div className={style.switch}>
-          <div className="form-switch fixed-bottom m-3">
+          <div className="form-switch fixed-bottom m-3"   data-aos="zoom-in-right"
+                data-aos-duration="1000">
             <input
               className="form-check-input toggle-button"
               style={{ width: "52px", height: "26px" }}
